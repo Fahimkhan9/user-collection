@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlusSquare } from '@fortawesome/free-solid-svg-icons'
 function User(props) {
     const {name,age,imgurl,address,bio,salary} = props.user
-    console.log(name);
+    // console.log(name);
     return (
         <div className="users">
       <div class="card mb-3" style={{maxWidth: "540px"}}  >

@@ -7,7 +7,7 @@ import User from './Comp/User';
 import Friends from './Comp/Friends';
 function App() {
   const firstTenUser = fakeData.slice(1,11)
-  console.log(firstTenUser);
+  // console.log(firstTenUser);
   const [user,setUser] = useState(firstTenUser)
   const [list,setList] = useState([])
 

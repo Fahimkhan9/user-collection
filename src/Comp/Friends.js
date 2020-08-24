@@ -2,10 +2,10 @@ import React from 'react'
 
 function Freinds(props) {
     const list =  props.list
-console.log(list);
+// console.log(list);
       const total= list.reduce((total,data) => total + data.salary,0)
 
-console.log(total);
+// console.log(total);
 
     return (
         <div>
